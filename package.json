@@ -1,0 +1,32 @@
+{
+  "name": "cloudflare-dns-updater-nodejs",
+  "module": "./src/index.ts",
+  "author": {
+    "name": "Humayun Kabir",
+    "email": "humayunkabir.cep@gmail.com",
+    "url": "https://humayunkabir.dev"
+  },
+  "repository": {
+    "url": "https://github.com/humayunkabir/cloudflare-dns-updater-nodejs"
+  },
+  "description": "Cloudflare Dynamic DNS IP Updater",
+  "keywords": [
+    "Cloudflare",
+    "Dynamic DNS IP",
+    "Dynamic DNS Updater"
+  ],
+  "scripts": {
+    "start": "bun ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.7.9"
+  },
+  "license": "MIT"
+}
