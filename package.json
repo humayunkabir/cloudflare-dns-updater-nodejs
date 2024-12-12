@@ -16,7 +16,8 @@
     "Dynamic DNS Updater"
   ],
   "scripts": {
-    "start": "bun ./src/index.ts"
+    "start": "bun ./src/index.ts",
+    "cron": "bun ./src/cron.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
@@ -26,7 +27,8 @@
   },
   "type": "module",
   "dependencies": {
-    "axios": "^1.7.9"
+    "axios": "^1.7.9",
+    "cron": "^3.3.1"
   },
   "license": "MIT"
 }
